@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { Starks } from "./Starks";
+import { Characters } from "./Characters";
 
 ReactDOM.render(
-  <Starks/>,
+  <Characters/>,
   document.getElementById("root")
 );
