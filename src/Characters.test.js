@@ -27,7 +27,7 @@ afterAll(() =>{
 test("backend is called", () => {
   render(<Characters />);
   expect(global.fetch).toHaveBeenCalledTimes(1);
-  expect(global.fetch).toHaveBeenCalledWith('https://imr3-react-backend.herokuapp.com');
+  expect(global.fetch).toHaveBeenCalledWith('https://imr3-react.herokuapp.com/exos');
 })
 
 test("renders without crashing", () => {

@@ -17,7 +17,7 @@ export class Characters extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://imr3-react-backend.herokuapp.com")
+    fetch("https://imr3-react.herokuapp.com/exos")
       .then(res => res.json())
       .then(json => {
         this.setState({
